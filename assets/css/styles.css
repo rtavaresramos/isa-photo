@@ -18,12 +18,20 @@ header {
   margin-bottom: 30px;
 }
 
+.header__container-bg{
+  width: 100vw;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: rgba(0,0,0,.6);
+}
 .header__container{
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
-  height: 390px;
+  height: 290px;
+  padding-top: 20px;
 }
 
 .header__container--content{
@@ -72,7 +80,7 @@ nav{
   display: flex;
   justify-content: center;
   align-items: center;
-  background: rgba(0,0,0,.7);
+  background: rgba(0,0,0,.5);
   border-radius: 25px;
 
 }
@@ -102,12 +110,9 @@ nav{
 
 .nav__container a:hover li{
   padding-bottom: 4px;
-  
+  border-bottom: 2px solid #c6c6c6;
 }
-.nav__container a li span{
-  width: 30px;
-  border-bottom: 2px solid #fff;
-}
+
 .nav__container a:hover span{
 
   width: 10px;
