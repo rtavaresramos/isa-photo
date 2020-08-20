@@ -152,10 +152,10 @@ header {
       -ms-flex-pack: center;
           justify-content: center;
   height: 100vh;
-  background: url("../img/banner-header.jpg");
-  background-position: center center;
+  background: #000;
+  /* background-position: center center;
   background-size: 100%;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
 }
 
 .header__container-bg {
@@ -268,7 +268,7 @@ nav {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgb(255, 255, 255);
   border-radius: 25px;
 }
 
@@ -292,7 +292,7 @@ nav {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  color: #fff;
+  color: #000;
   text-decoration: none;
   margin: 0 20px;
   -webkit-transition: 1s;
@@ -302,8 +302,8 @@ nav {
 .nav__container a:hover {
   -webkit-filter: brightness(90%);
           filter: brightness(90%);
-  color: #000;
-  background: #fff;
+  color: #fff;
+  background: rgba(0,0,0,.7);
   padding: 6px 20px;
   border-radius: 25px;
 }

@@ -1,9 +1,6 @@
 
 
 
-@import "./Sass/slider";
-
-
 body,html{
   margin: 0;
   padding: 0;
@@ -41,10 +38,10 @@ header {
   display: flex;
   justify-content: center;
   height: 100vh;
-  background: url('../img/banner-header.jpg');
-  background-position: center center;
-  background-size: 100%;
-  background-repeat: no-repeat;
+  background: #000;
+  // background-position: center center;
+  // background-size: 100%;
+  // background-repeat: no-repeat;
 }
 
 .header__container-bg{
